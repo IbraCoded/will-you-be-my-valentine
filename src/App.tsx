@@ -35,14 +35,14 @@ export default function Page() {
 
   const getAskingImage = () => {
     if (noCount >= 15) {
-      return "/will-you-be-my-valentine/public/images/01fc7063-a486-4a77-ae78-52dc368f9b13.JPG"; // Replace with your sad bear image
+      return "/images/01fc7063-a486-4a77-ae78-52dc368f9b13.JPG"; // Replace with your sad bear image
     }
     return "https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif";
   }
 
   const getBackgroundImage = () => {
     if (yesPressed) {
-      return "url('will-you-be-my-valentine/public/images/IMG_2662.jpg')";
+      return "url('/images/IMG_2662.jpg')";
     } else if (noCount >= 15) {
       return ; // Replace with your initial background image path
     }
