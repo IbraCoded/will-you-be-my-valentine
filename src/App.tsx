@@ -64,7 +64,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-xl md:text-3xl lg:text-4xl font-bold text-center">
+          <div className="my-4 text-xl md:text-3xl lg:text-4xl font-bold text-center text-white">
             WOOOOOO!!! I love you baby mi!
             <br />
             <img
